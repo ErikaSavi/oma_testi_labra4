@@ -19,7 +19,7 @@ jobs:
 
     - run: |
         docker build . -t erikarn.azurecr.io/erikabuild
-        docker push erikarn.azurecr.io/erikabuilr     
+        docker push erikarn.azurecr.io/erikabuild
 
     - uses: azure/webapps-deploy@v2
       with:
